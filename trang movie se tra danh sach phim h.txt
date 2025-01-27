@@ -1,0 +1,4 @@
+trang movie se tra danh sach phim hay chi tiet phim dua vao api cua https://www.themoviedb.org cung cap
+nhiem vu cua dev se bat duoc ma imdb cua 1 phim de where voi Nguon stream phim ma mình se lam
+de lam duoc yeu cau tren can:
+viet 1 api nhan request voi param la code imdb de where voi he thong lay duoc danh sach tap phim
