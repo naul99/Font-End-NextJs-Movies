@@ -4,16 +4,17 @@ import AnchorButton from 'components/AnchorButton';
 import LinkIcon from 'public/assets/svgs/icons/link.svg';
 
 const Website = ({ href }) => (
+  
   <>
     {href && (
+      
       <AnchorButton
         anchorProps={{
-          href,
-          target: '_blank',
+          href:`watch?movie=${href}`,
           rel: 'noopener noreferrer'
         }}
         buttonProps={{
-          title: 'Website',
+          title: 'Watch Now',
           endIcon: (
             <LinkIcon
               fill='currentColor'

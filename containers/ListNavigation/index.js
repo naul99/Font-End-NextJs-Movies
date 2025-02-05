@@ -85,7 +85,7 @@ const ListNavigation = ({ listId }) => {
   let listLinks = listId ? updateListLinks : createListLinks;
 
   return (
-    <Navbar>
+    (<Navbar>
       {listLinks.map(listLink => (
         <NavbarItem
           key={listLink.title}
@@ -93,11 +93,11 @@ const ListNavigation = ({ listId }) => {
           selected={pathname === listLink.href.pathname}>
           <Link
             href={listLink.href}>
-            <a>{listLink.title}</a>
+            {listLink.title}
           </Link>
         </NavbarItem>  
       ))}
-    </Navbar>
+    </Navbar>)
   );
 };
 

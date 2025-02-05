@@ -11,10 +11,7 @@ const PosterLink = React.forwardRef(({
   ...rest
 }, ref) => (
   <>
-    <Link
-      passHref
-      as={as}
-      href={href}>
+    <Link passHref as={as} href={href} legacyBehavior>
       <a
         ref={ref}
         {...rest}>

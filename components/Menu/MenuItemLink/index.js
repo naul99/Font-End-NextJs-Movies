@@ -12,10 +12,7 @@ const MenuItemLink = React.forwardRef(({
   ...rest
 }, ref) => (
   <>
-    <Link
-      href={href}
-      as={as}
-      passHref>
+    <Link href={href} as={as} passHref legacyBehavior>
       <a
         ref={ref}
         {...rest}>

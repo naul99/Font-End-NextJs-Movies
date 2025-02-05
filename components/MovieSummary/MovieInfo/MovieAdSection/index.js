@@ -11,7 +11,7 @@ const MovieAdSection = ({
   videos
 }) => (
   <AdSectionWrapper>
-    <Website href={websiteUrl} />
+    <Website href={imdbId} />
     <Imdb id={imdbId} />
     <Trailer videos={videos} />
   </AdSectionWrapper>
